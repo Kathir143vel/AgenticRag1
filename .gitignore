@@ -1,0 +1,24 @@
+# Virtual Environment
+venv/
+.venv/
+
+# Database (Generated Data)
+chroma_db_mining/
+chroma_db/
+
+# Parsed Documents (Generated Data)
+parsed_markdown/
+parsed_docs/
+mining_reports/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Environment Variables (Security)
+.env
+*.env
+
+# IDE
+.vscode/
+.idea/

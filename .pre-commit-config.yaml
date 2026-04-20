@@ -1,0 +1,18 @@
+default_language_version:
+  python: python3.13
+fail_fast: false
+ 
+repos:
+  - repo: https://github.com/pycqa/flake8
+    rev: 7.3.0
+    hooks:
+      - id: flake8
+        additional_dependencies:
+          - flake8-docstrings
+          - flake8-comments
+          - flake8-debugger
+          - flake8-print
+          - flake8-builtins
+          - flake8-exceptions
+          - flake8-eradicate
+        language_version: python3

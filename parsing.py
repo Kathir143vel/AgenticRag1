@@ -1,6 +1,5 @@
 import pymupdf4llm
 import os
-from pathlib import Path
 
 # 1. Define your folder containing the 5 PDFs
 pdf_folder = r"C:\Users\kathir.vel\Desktop\week5\5 pdf"
